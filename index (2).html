@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Crystal View Cleaning</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fefefe;
+      color: #333;
+    }
+    header {
+      background: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c') no-repeat center center/cover;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    header h1 {
+      font-size: 3em;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2em;
+      margin: 20px 0;
+    }
+    .button {
+      background-color: gold;
+      color: black;
+      padding: 15px 25px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+    .section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: space-around;
+    }
+    .service {
+      flex: 1;
+      min-width: 250px;
+      background: #f4f4f4;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    input, select, textarea {
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    footer {
+      background-color: #111;
+      color: #eee;
+      padding: 40px 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Crystal Clear Every Time</h1>
+    <p>Professional Window, Gutter & Siding Cleaning in Canada</p>
+    <a href="#booking" class="button">Get a Free Quote</a>
+  </header>
+
+  <div class="section">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="service">
+        <h3>Window Cleaning</h3>
+        <p>Inside & Out – Streak-Free Shine</p>
+      </div>
+      <div class="service">
+        <h3>Gutter Cleaning</h3>
+        <p>Prevent Damage with Clean Gutters</p>
+      </div>
+      <div class="service">
+        <h3>Siding Wash</h3>
+        <p>Restore the Look of Your Home</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" style="background:#fafafa;">
+    <h2>About Us</h2>
+    <p>Crystal View is a locally owned business offering premium exterior cleaning services with attention to detail and a commitment to satisfaction.</p>
+  </div>
+
+  <div class="section">
+    <h2>What Our Customers Say</h2>
+    <p>“Our windows have never looked better! Fast and professional.” – Jane D. ⭐⭐⭐⭐⭐</p>
+    <p>“Very friendly, excellent service. Highly recommend.” – Mike T. ⭐⭐⭐⭐⭐</p>
+  </div>
+
+  <div class="section" id="booking">
+    <h2>Book a Service</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Email Address" required>
+      <input type="tel" placeholder="Phone Number" required>
+      <input type="text" placeholder="Address">
+      <select required>
+        <option value="">Select a Service</option>
+        <option>Window Cleaning</option>
+        <option>Gutter Cleaning</option>
+        <option>Siding Wash</option>
+      </select>
+      <input type="date" required>
+      <textarea placeholder="Any special requests?"></textarea>
+      <button class="button" type="submit">Submit</button>
+    </form>
+  </div>
+
+  <footer>
+    <p>Crystal View Cleaning | Serving Canada</p>
+    <p>Email: info@crystalviewcleaning.ca</p>
+    <p>&copy; 2025 Crystal View</p>
+  </footer>
+
+</body>
+</html>
